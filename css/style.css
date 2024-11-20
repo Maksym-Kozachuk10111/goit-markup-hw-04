@@ -1,0 +1,303 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 24px;
+  color: #434455;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/* son 4 hata için kod kısmı */
+.studio-link {
+  padding: 24px 0;
+}
+
+
+
+/* son 4 hata için kod kısmı */
+header {
+  color: #FFFFFF;
+  border-bottom: 1px solid #E7E9FC;
+}
+
+.header-container,
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-links,
+.address-list,
+.team-members,
+.list-portfolio {
+  display: flex;
+  gap: 24px;
+}
+/* gelen hata düzeltme */
+.header-links{
+  gap: 40px;
+}
+.address-list{
+  gap: 40px;
+}
+
+/* gelen hata düzeltme sonu*/
+
+header .logo-web,
+.logo-studio,
+.footer-web,
+.footer-studio {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+}
+
+header .logo-web {
+  color: #4D5AE5;
+  margin-right: 76px;
+}
+
+.logo-studio,
+.navigation .studio-link,
+.navigation .portfolio-link,
+.navigation .contacts-link {
+  color: #2E2F42;
+}
+
+.navigation .studio-link,
+.navigation .portfolio-link,
+.navigation .contacts-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.navigation .studio-link:hover,
+.navigation .portfolio-link:hover,
+.navigation .contacts-link:hover,
+.email-address:focus,
+.email-address:hover,
+.button:hover,
+.button:focus {
+  color: #404BBF;
+}
+
+.email-address,
+.phone-number,
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.section-first {
+  background-color: #2E2F42;
+  padding: 188px 0;
+  text-align: center;
+  display: flex;
+  flex-shrink: 0;
+}
+
+
+.section-second ul,
+.list-portfolio {
+  display: flex;
+}
+.section-one{
+  display: flex;
+  flex-direction: column;
+}
+
+.list-portfolio {
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+/* 2. bölüm hata gelen */
+.section-second{
+  padding: 120px 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+list-benefits{
+  gap: 24px;
+}
+
+.punkt {
+  width: calc((1128px - 72px) / 4);
+  flex-shrink: 0;
+}
+/* 2. bölüm hata gelen sonu */
+
+.big-title {
+  max-width: 496px;
+  color: #FFFFFF;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+.button {
+  background-color: #4D5AE5;
+  border: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  min-width: 169px;
+  height: 56px;
+  margin: 0 auto;
+  padding: 16px 0;
+}
+
+.section-three {
+  background-color: #F4F4FD;
+  padding: 120px 0;
+}
+
+.worker {
+  padding: 32px 0;
+}
+
+.one-member,
+.port-list {
+  background-color: #FFFFFF;
+}
+
+/* 3 bölüm gelen hata düzeltme */
+
+.port-list {
+  background-color: white;
+  display: block;
+  border-radius: 0px 0px 4px 4px;
+}
+/* 3 bölüm gelen hata düzeltme sonu */
+.introduction,
+.introduction-two {
+  text-transform: capitalize;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.their-name,
+.title-second,
+.benefits {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.their-job {
+  font-size: 16px;
+  font-weight: 400;
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.section-four {
+  padding-top: 120px 0;
+  padding-bottom: 120px 0;
+  border: 1px solid #e7e9fc ;
+  margin-bottom: 8px;
+}
+/* yukarıdaki son üç hata sonucu eklendi */
+
+/* 4. bölüm gelen hatalar düzeltmesi */
+.app-function {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
+/* son 1 hata düzeltmesi için */
+.their-name-port {
+  display: inline-block;
+  text-align: left;
+  font-weight: 500;
+  margin-bottom: 8px;
+} 
+
+.footer-page {
+  background-color: #2E2F42;
+  padding: 100px 0;
+}
+
+.footer-web,
+.footer-studio {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  color: #F4F4FD;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  width: 264px;
+}
